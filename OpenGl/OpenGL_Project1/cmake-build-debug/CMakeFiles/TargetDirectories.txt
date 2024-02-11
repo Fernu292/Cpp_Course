@@ -1,3 +1,0 @@
-/home/fernu/Documents/Cpp_Course/OpenGl/OpenGL_Project1/cmake-build-debug/CMakeFiles/OpenGL_Project1.dir
-/home/fernu/Documents/Cpp_Course/OpenGl/OpenGL_Project1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/fernu/Documents/Cpp_Course/OpenGl/OpenGL_Project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

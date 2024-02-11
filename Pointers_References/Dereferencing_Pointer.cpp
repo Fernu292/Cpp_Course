@@ -49,6 +49,20 @@ int main(){
 
     cout<<"\n-----------------------------"<<endl; 
 
+    vector<string> stooges {"Larry", "Moe", "Curly"};
+    vector<string> *vector_ptr {nullptr};
+
+    vector_ptr = &stooges;
+
+    cout<<"First stooge: "<<(*vector_ptr).at(0)<<endl;
+    cout<<"Stooges: ";
+
+    for (auto stooge : *vector_ptr) {
+        cout<<stooge<<" ";
+    }
+    cout << endl;
+
+    cout<<"\n-----------------------------"<<endl; 
 
     return 0;
 }
