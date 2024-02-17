@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
     // Using new [] to allocate storage for an array
 
     int *array_ptr (nullptr);
-    int size {};
+    size_t size {};
 
     cout<<"\nHow big do you want the array: ";
     cin>>size;
@@ -41,6 +41,8 @@ int main(int argc, char **argv) {
     // Delete syntaxis for allocaded array 
 
     delete [] array_ptr;
+
+    cout << array_ptr << endl;
 
     cout<<"\n=================================="<<endl;
 
